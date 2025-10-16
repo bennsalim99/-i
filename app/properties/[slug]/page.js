@@ -58,6 +58,26 @@ export default function PropertyDetail({ params }) {
           <p className="section-subtitle" style={{ marginBottom: '1rem' }}>
             {property.description}
           </p>
+          <blockquote
+            className="signature-callout"
+            style={{ margin: '0 0 1.5rem', fontSize: '1.05rem', color: 'rgba(27, 31, 42, 0.75)' }}
+          >
+            “{property.signature}”
+          </blockquote>
+          <div className="detail-metrics">
+            <div className="detail-metric">
+              <span>İç Getiri Oranı</span>
+              <strong>{property.investment.irr}</strong>
+            </div>
+            <div className="detail-metric">
+              <span>Yıllık Gelir</span>
+              <strong>{property.investment.yield}</strong>
+            </div>
+            <div className="detail-metric">
+              <span>Değer Artışı</span>
+              <strong>{property.investment.appreciation}</strong>
+            </div>
+          </div>
           <ul style={{ listStyle: 'none', display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
             {property.features.map((feature) => (
               <li key={feature} className="badge">
@@ -84,7 +104,7 @@ export default function PropertyDetail({ params }) {
       </section>
 
       <section style={{ marginTop: '3rem' }}>
-        <div className="grid">
+        <div className="grid detail-panels">
           <article className="card">
             <h2 className="section-title" style={{ fontSize: '2rem' }}>
               Seçkin Ayrıcalıklar
@@ -110,6 +130,11 @@ export default function PropertyDetail({ params }) {
               Helikopter ile keşif, Michelin rehberli gastronomi eşleşmeleri ve sanat danışmanlığı içeren
               paketlerimiz hakkında bilgi alın.
             </p>
+            <ul className="concierge-list">
+              {property.concierge.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
               <a href="tel:+908508851000" className="btn btn-primary">
                 Keşif Planla
@@ -118,6 +143,22 @@ export default function PropertyDetail({ params }) {
                 Bilgi Talep Et
               </a>
             </div>
+          </article>
+
+          <article className="card" style={{ display: 'grid', gap: '1rem' }}>
+            <h2 className="section-title" style={{ fontSize: '2rem' }}>
+              Yaşam Alanı İmkanları
+            </h2>
+            <ul style={{ listStyle: 'none', display: 'grid', gap: '0.9rem' }}>
+              {property.amenities.map((amenity) => (
+                <li key={amenity} style={{ display: 'flex', gap: '0.7rem', alignItems: 'flex-start' }}>
+                  <span role="img" aria-label="leaf">
+                    🌟
+                  </span>
+                  <span>{amenity}</span>
+                </li>
+              ))}
+            </ul>
           </article>
         </div>
       </section>

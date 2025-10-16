@@ -9,6 +9,8 @@ export const properties = [
     location: 'Nişantaşı · İstanbul',
     image:
       'https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1200&q=80',
+    signature:
+      'Paris merkezli Atelier Lumière tarafından tasarlanan cam atrium, boğazın ışığını gün boyunca içeri taşıyor.',
     gallery: [
       'https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1600&q=80',
       'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80',
@@ -20,6 +22,22 @@ export const properties = [
       'Koleksiyonluk sanat eserleri için iklim kontrollü galeri',
       'Her katta panoramik Boğaz manzarası ve geniş teraslar',
       'Spa, hamam ve fitness katında gün ışığı alan wellness alanı'
+    ],
+    investment: {
+      irr: '%9,8',
+      yield: '%6,2 net kira getirisi',
+      appreciation: '+%21 beş yıllık değer artışı'
+    },
+    amenities: [
+      'Helikopter pisti ve özel marina bağlantısı',
+      'Mücevher kasası ve güvenli sanat depolama alanı',
+      'Gaggenau şef mutfak ve gastronomi laboratuvarı',
+      'İç avluda dijital twin kontrollü ışık senaryoları'
+    ],
+    concierge: [
+      'Boğaz üzerinde sunset yacht & fine dining eşleşmesi',
+      'Paris ve Milano moda haftalarına özel davetiye kotaları',
+      'Aile ofisi için varlık yapılandırma danışmanlığı'
     ]
   },
   {
@@ -32,6 +50,8 @@ export const properties = [
     location: 'Levent · İstanbul',
     image:
       'https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1200&q=80&sat=-100',
+    signature:
+      'Gökyüzü katındaki cam kubbe, İstanbul’un ışık haritasını 360° deneyimlemenizi sağlayan observatuvar sunuyor.',
     gallery: [
       'https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80',
       'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80',
@@ -43,6 +63,22 @@ export const properties = [
       'Sky spa katında açık hava hamamı ve yıldız izleme terası',
       'Şef mutfak, şarap kileri ve miksoloji laboratuvarı',
       'Akustik izolasyonlu ev sineması ve performans salonu'
+    ],
+    investment: {
+      irr: '%8,9',
+      yield: '%5,8 net kira getirisi',
+      appreciation: '+%17 üç yıllık değer artışı'
+    },
+    amenities: [
+      'Sky lounge bar ve Michelin konuk şef rezidans mutfağı',
+      'Blockchain tabanlı erişim kontrolü ve dijital concierge',
+      'Ses izolasyonlu kayıt stüdyosu ve performans alanı',
+      'Özel astronomi güvertesi ve yıldız izleme deneyimleri'
+    ],
+    concierge: [
+      'Londra-New York arasında jet charter öncelikli slot planlaması',
+      'GQ & Wallpaper* ile yaşam tarzı yayınlarında portföy lansmanı',
+      'Küresel şirket yöneticileri için relocation concierge'
     ]
   },
   {
@@ -55,6 +91,8 @@ export const properties = [
     location: 'Gölköy · Bodrum',
     image:
       'https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1200&q=80',
+    signature:
+      'Ege breezesiyle nefes alan taş kemerler, güneş hareketine göre otomatik gölgeleme sağlayan kanopiyle buluşuyor.',
     gallery: [
       'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1600&q=80',
       'https://images.unsplash.com/photo-1512914890250-353c97f01689?auto=format&fit=crop&w=1600&q=80',
@@ -66,6 +104,22 @@ export const properties = [
       'Akdeniz peyzajlı zen bahçeleri ve açık hava sineması',
       'Misafir pavilyonu, yoga deck ve biyofilik tasarım detayları',
       'Özel plaj kulübü üyeliği ve sürüş hizmeti'
+    ],
+    investment: {
+      irr: '%10,4',
+      yield: '%7,1 kısa dönem kira getirisi',
+      appreciation: '+%24 sürdürülebilir yaşam primi'
+    },
+    amenities: [
+      'LEED Gold sertifikalı yapı kabuğu ve yağmur suyu geri kazanımı',
+      'Şef bahçesi, organik tarım atölyeleri ve wellness pavilyonu',
+      'Bodrum-İstinye arasında deniz uçağı concierge transferi',
+      'Ses yalıtımlı yaratıcı stüdyo ve açık hava sinema amfisi'
+    ],
+    concierge: [
+      'Saint-Tropez ve Mykonos yaz üyeliklerine öncelikli erişim',
+      'Çevreci yatırım fonlarıyla sürdürülebilir portföy danışmanlığı',
+      'Aile yaşamı için uluslararası okul kabul koordinasyonu'
     ]
   }
 ];
